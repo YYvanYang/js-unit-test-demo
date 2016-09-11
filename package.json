@@ -1,0 +1,25 @@
+{
+  "name": "js-unit-test-demo",
+  "version": "1.0.0",
+  "description": "JS unit test with karma(test runner), mocha(test framework) and istunbul(code coverage)",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "coverage": "istanbul cover node_modules/.bin/_mocha -- -u exports -R spec test/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "karma": "^1.3.0",
+    "karma-browserify": "^5.1.0",
+    "karma-mocha": "^1.1.1",
+    "karma-mocha-reporter": "^2.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "mocha": "^3.0.2",
+    "phantomjs": "^2.1.7",
+    "watchify": "^3.7.0"
+  }
+}
