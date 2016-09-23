@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start",
-    "coverage": "istanbul cover node_modules/.bin/_mocha -- -u exports -R spec test/**/*.js"
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -u exports -R spec test/**/*.js"
   },
   "author": "",
   "license": "ISC",
